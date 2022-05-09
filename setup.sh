@@ -9,5 +9,4 @@ for RC in "${RCS[@]}"; do
   fi
 done
 
-sudo apt-get install aria2 -y
-exec "$SHELL" -l
+/usr/bin/env bash -i -c 'sudo apt-get install aria2 -y'
